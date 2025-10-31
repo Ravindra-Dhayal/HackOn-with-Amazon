@@ -85,7 +85,7 @@ def load_model():
     mydb=mysql.connector.connect(
         host="localhost",
         user="root",
-        password="password",
+        password="Ravindra@2004",
         database="hackonamazon",
     )
 
@@ -102,7 +102,7 @@ def load_model():
     mydb=mysql.connector.connect(
         host="localhost",
         user="root",
-        password="password",
+        password="Ravindra@2004",
         database="hackonamazon",
     )
 
@@ -288,7 +288,7 @@ def check_budget_limit(user_id):
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="password",
+        password="Ravindra@2004",
         database="hackonamazon"
     )
     mycursor = mydb.cursor()
@@ -353,7 +353,7 @@ def get_budget_limit():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="password",
+            password="Ravindra@2004",
             database="hackonamazon"
         )
         
@@ -380,7 +380,7 @@ def setBudgetLimit():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="password",
+            password="Ravindra@2004",
             database="hackonamazon"
         )
         data = request.get_json()
@@ -413,7 +413,7 @@ def reset_budget():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="password",
+            password="Ravindra@2004",
             database="hackonamazon"
         )
         
@@ -438,7 +438,7 @@ def checkout():
         mydb=mysql.connector.connect(
             host="localhost",
             user="root",
-            password="password",
+            password="Ravindra@2004",
             database="hackonamazon",
         )
 
@@ -451,7 +451,7 @@ def checkout():
         mydb=mysql.connector.connect(
             host="localhost",
             user="root",
-            password="password",
+            password="Ravindra@2004",
             database="hackonamazon",
         )
 
