@@ -1,0 +1,42 @@
+# Dependencies
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/.vite/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+
+# Logs and local databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
